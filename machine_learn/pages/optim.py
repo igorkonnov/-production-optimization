@@ -1,9 +1,9 @@
 #71C8F3import dash
 import pathlib
 from utils import Header
-import dash_core_components as dcc
-import dash_html_components as html
-import dash_table
+from dash import  dcc
+from dash import html
+from dash import  dash_table
 import plotly.express as px
 from dash.dependencies import Input, Output
 from utils import get_table, model_list
